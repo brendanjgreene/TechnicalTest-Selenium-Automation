@@ -30,6 +30,8 @@ public class xeHomePage {
 	//acceptCookies button locator
 	By acceptCookies = By.xpath("//button[contains(.,'Accept')]");
 	
+	///
+	
 	//method to accept cookies
 	public void clickAccept() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(90));
